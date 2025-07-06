@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>La Belle Cuisine</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&family=Open+Sans&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Open Sans', sans-serif;
+      background: #fffaf5;
+      color: #333;
+    }
+    header {
+      background: url('https://source.unsplash.com/1600x600/?restaurant,food') no-repeat center center/cover;
+      height: 60vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      text-shadow: 2px 2px 4px #000;
+      font-family: 'Playfair Display', serif;
+    }
+    header h1 {
+      font-size: 4rem;
+    }
+    nav {
+      background-color: #fff;
+      padding: 1em;
+      display: flex;
+      justify-content: center;
+      gap: 2em;
+      border-bottom: 1px solid #eee;
+    }
+    nav a {
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+      transition: color 0.3s;
+    }
+    nav a:hover {
+      color: #c0392b;
+    }
+    .content {
+      padding: 2em;
+      max-width: 900px;
+      margin: auto;
+      line-height: 1.6;
+    }
+    .highlight {
+      color: #c0392b;
+      font-weight: bold;
+    }
+    footer {
+      text-align: center;
+      padding: 1em;
+      background: #f2f2f2;
+      margin-top: 2em;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>La Belle Cuisine</h1>
+  </header>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Menu</a>
+    <a href="#">Reservations</a>
+    <a href="#">Contact</a>
+  </nav>
+  <div class="content">
+    <h2>Welcome to <span class="highlight">La Belle Cuisine</span></h2>
+    <p>
+      Experience the finest in gourmet dining with an unforgettable atmosphere. Our chefs prepare each dish with artistry and passion, using only the freshest ingredients.
+    </p>
+    <p>
+      Join us for a romantic dinner, a family celebration, or a business lunch — where every meal is a memory waiting to happen.
+    </p>
+  </div>
+  <footer>
+    &copy; 2025 La Belle Cuisine | Designed with ❤️
+  </footer>
+</body>
+</html>
